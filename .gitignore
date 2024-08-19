@@ -1,0 +1,3 @@
+.aptos
+node_modules
+src/move/build

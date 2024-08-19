@@ -1,0 +1,16 @@
+[package]
+name = "MyApp"
+version = "0.0.0"
+
+[addresses]
+MyApp = "_"
+
+# [dependencies]
+# AptosFramework = { local = "../../../../aptos-core/aptos-move/framework/aptos-framework" }
+# /aptos-playground/p2-code-deployment-v2/src/move/Move.toml
+# /aptos-core/aptos-move/framework/aptos-framework/Move.toml
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
